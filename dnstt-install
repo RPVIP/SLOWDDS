@@ -43,9 +43,9 @@ echo -e "BAIXANDO DEPENDENCIAS..." | pv -qL 10
 echo ""
 fun_att () {
 apt install ncurses-utils -y
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/server.key
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/server.pub
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns-info
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/server.key
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/server.pub
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/slowdns-info
 chmod +x slowdns-info
 mv slowdns-info /bin/
 }
@@ -64,10 +64,10 @@ sleep 2
 }
 fun_bar 'fun_dnscf'
 sleep 1
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/slowdns
 chmod +x slowdns
 cp slowdns /bin/
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/desabledns
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/desabledns
 chmod +x desabledns
 cp desabledns /bin/
 rm slowdns desabledns
