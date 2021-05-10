@@ -51,16 +51,16 @@ do
             break
             ;;
         "Atualizar SlowDNS")
-            rm remove; apt update; apt upgrade -y; wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/update; chmod +x update; ./update; rm update
+            rm remove; apt update; apt upgrade -y; wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/update; chmod +x update; ./update; rm update
             break
             ;;
         "Remover SlowDNS")
-            wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/remove-slow; chmod +x remove-slow; ./remove-slow
+            wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/remove-slow; chmod +x remove-slow; ./remove-slow
             clear
             sleep 2
             ;;
         "Remover SlowDNS e Menu")
-            wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/remove-slow; chmod +x remove-slow; ./remove-slow; rm /bin/slowdns
+            wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/remove-slow; chmod +x remove-slow; ./remove-slow; rm /bin/slowdns
             break
             ;;
         "Sair")
