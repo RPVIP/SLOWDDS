@@ -55,7 +55,7 @@ service iptables restart
 fun_bar 'install_pkgs'
 echo -e "BAIXANDO BINARIO DNSTT..."
 download_dnstt () {
-cd /root && wget https://github.com/LaelsonCG/slowdns/raw/main/dns-server
+cd /root && wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/dns-server
 chmod +x dns-server
 }
 fun_bar 'download_dnstt'
@@ -78,8 +78,8 @@ cd /root
 touch infons
 echo $nameserver >> infons
 sleep 1
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/ssl/startdns 
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/ssl/restartdns 
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/ssl/startdns 
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/ssl/restartdns 
 chmod +x startdns
 chmod +x restartdns
 sed -i "s;1234;$nameserver;g" /root/startdns > /dev/null 2>&1
