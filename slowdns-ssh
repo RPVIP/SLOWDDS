@@ -33,7 +33,7 @@ echo -e ""
 echo -e "      Esse script irá fazer a instalação do"
 echo -e "     slowdns para tunelamento de DNS com SSH."
 echo -e ""
-echo -e "         \033[1;33mInstalador feito por @Laael ❤️ \033[1;37m"
+echo -e "         \033[1;33mInstalador feito por @RP4321 ❤️ \033[1;37m"
 echo -e ""
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo ""
@@ -57,7 +57,7 @@ echo -e "CONFIGURANDO IPTABLES..."
 ipt_set () {
 cd /etc
 mv rc.local rc.local.bkp
-wget https://github.com/LaelsonCG/slowdns/raw/main/rc.local
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/rc.local
 chmod +x /etc/rc.local
 systemctl enable rc-local
 systemctl start rc-local
@@ -73,8 +73,8 @@ touch infons
 echo $nameserver > infons
 set_ns () {
 sleep 1
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/ssh/startdns 
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/ssh/restartdns
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/ssh/startdns 
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/ssh/restartdns
 chmod +x startdns
 chmod +x restartdns
 sed -i "s;1234;$nameserver;g" /etc/slowdns/startdns > /dev/null 2>&1
@@ -173,8 +173,8 @@ Opcao3 () {
 echo -e "Baixando par de chaves padrão..."
 cd
 rm server.key server.pub
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/server.key
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/server.pub
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/server.key
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/server.pub
 sleep 1
 echo -e "Download Concluído"
 sleep 1
@@ -254,8 +254,8 @@ slowdns
 opc_key2 () {
 echo -e "Baixando par de chaves padrão..."
 cd
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/server.key
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/server.pub
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/server.key
+wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/server.pub
 sleep 1
 echo -e "Download Concluído"
 sleep 1
