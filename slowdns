@@ -11,7 +11,7 @@ echo -e "\033[0;36m#  ''|||. ||.|  '|.||  ||  | ||    ||| '|. |  ''|||.#\033[m"
 echo -e "\033[0;36m#.     '||||||   || ||| |||  ||    |||   |||.     '|#\033[m"
 echo -e "\033[0;36m#|'....|'.||.'|..|'  |   |  .||...|'.|.   '||'....|'#\033[m"
 echo -e "\033[0;36m#---------------------------------------------------#\033[m"
-echo -e "\033[0;36m#\033[m \033[0;31mDESENVOLVIDO POR @LAAEL | CANAL @OFICIAL_SPEEDNET\033[m \033[0;36m#\033[m"
+echo -e "\033[0;36m#\033[m \033[0;31mDESENVOLVIDO POR @RP4321 | CANAL @CANALMEGAVPN\033[m \033[0;36m#\033[m"
 echo -e "\033[0;36m#===================================================#\033[m"
     echo ""
     echo -e "\033[0;36m[01]\033[m | Instalar SlowDNS SSH"
@@ -94,7 +94,7 @@ Opcao9 () {
 
 Opcao10 () {
     clear
-    wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/update
+    wget https://raw.githubusercontent.com/RPVIP/SLOWDDS/main/update
     chmod +x update
     bash update
 }
